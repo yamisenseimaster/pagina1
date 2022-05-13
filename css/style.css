@@ -1,0 +1,541 @@
+body{
+  background-color: rgb(0, 148, 247);
+  background: url(../imag/fondo2.jpg) no-repeat center center fixed;
+  background-size: cover;
+  
+  
+  padding: 25px;
+  padding: 0 0 0 0;
+}
+a{
+  color:white;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0);
+  
+
+}
+a:hover {
+  background-color: rgba(0, 0, 0, 0.161);
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+.enlace:hover{
+  background-color: rgba(0, 0, 0, 0);
+  color: lightseagreen;
+
+}
+
+h2{
+  font-size: 20px;
+  
+  color: white;
+  text-align: center;
+}
+.texdesc{
+  color:rgb(255, 255, 255);
+  text-align: center;
+  
+}
+
+  
+  
+  /* box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.2); */
+  
+ 
+  
+  /* color: #FFFFFF;
+  background-color: inherit;
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0 0 0; */
+
+
+
+.overlay:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  z-index: -1;
+}
+.yam{
+  -webkit-backdrop-filter:blur(15px);
+  backdrop-filter:blur(15px);
+  background-color: rgba(237, 237, 237, 0.057);
+   padding-right: 2rem;
+}
+/* .header{
+  display: flex;
+  justify-content: space-around;
+  background-color: aqua;
+  color: #FFFFFF;
+  padding: 0 30px;
+  margin: 186px;
+} */
+
+.padtop {
+  padding: 20px 0 0 0;
+}
+
+.header {
+  padding: 0 30px;
+}
+
+.header #logo {
+  margin: 22px 0 0 0;
+}
+
+.header #logo h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  font-variant: small-caps;
+}
+.nel{
+      max-width: 95%;
+      display: block;
+      margin: 0 auto;
+      
+}
+/* Top Navigation */
+
+
+
+.navegaton{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  gap:8rem;
+  border-radius: 12px;
+}
+
+
+.navegacion ul {
+  text-transform: uppercase;
+}
+
+.navegacion ul ul {
+  position: absolute;
+  width: 180px;
+  text-transform: none;
+  z-index: 9999;
+}
+
+.navegacion ul ul ul {
+  left: 180px;
+  top: 0;
+}
+
+.navegacion li {
+  display: inline-block;
+  position: relative;
+  margin: 0 15px 0 0;
+  padding: 0;
+}
+
+
+.navegacion li:last-child {
+  margin-right: 0;
+}
+
+.navegacion li li {
+  width: 100%;
+  margin: 0;
+}
+
+.navegacion li a {
+  display: block;
+  padding: 30px 0;
+}
+
+.navegacion li li a {
+  border: solid;
+  border-width: 0 0 1px 0;
+  border-radius: 8px;
+}
+
+.navegacion .drop {
+  padding-left: 15px;
+}
+
+.navegacion li li a,
+.navegacion li li .drop {
+  display: block;
+  margin: 0;
+  padding: 10px 15px;
+}
+
+.navegacion .drop::after,
+.navegacion li li .drop::after {
+  content: "\f0d7";
+}
+
+.navegacion .drop::after {
+  top: 35px;
+  left: 5px;
+}
+
+.navegacion li li .drop::after {
+  top: 15px;
+  left: 5px;
+}
+
+.navegacion ul ul {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.navegacion ul li:hover>ul {
+  visibility: visible;
+  opacity: 1;
+}
+
+.navegacion form {
+  display: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.navegacion form select,
+.navegacion form select option {
+  display: block;
+  cursor: pointer;
+  outline: none;
+}
+
+.navegacion form select {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid;
+}
+
+.navegacion form select option {
+  margin: 5px;
+  padding: 0;
+  border: none;
+}
+/* .drop{
+  transition: all 3s ease-in-out;
+} */
+
+/* contenido desenfoque de imagen */
+/* body{
+  font:normal 18px/1.5 "helvatica Neue", sans-serif; */
+
+.flex-box1{
+  display: flex;
+  height:100vh;
+  box-shadow: 10px 10px 10px rgb(11, 30, 40);
+  border-radius: 12px;
+  
+}
+.flex-box1 a{
+  position: relative;
+  flex: 1;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: flex .4s;
+}
+.flex-box1 .cajon1{
+  background-image: url(../imag/jujuy-750x350.jpg);
+  background-color: red;
+}
+.flex-box1 .cajon2 {
+  background-image: url(../imag/Salta-Plaza-9-Julio.webp);
+  background-color: green;
+}
+.flex-box1 .cajon3 {
+  background-image: url(../imag/hero-large-buenos-aires_gw4get.webp);
+  background-color: blue;
+}
+.flex-box1 .cajon4 {
+  background-image: url(../imag/Corrientes-Ciudad-1-1024x501.jpg);
+  background-color: gray;
+}
+.flex-box1 .cajon5 {
+  background-image: url(../imag/16222246410-tucuman-773x458.jpg);
+  background-color: yellow;
+}
+.flex-box1 .cajon6 {
+  background-image: url(../imag/Skyline_of_downtown_Cordoba_city\,_Argentina_2013-02-24.jpg);
+  background-color: gold;
+}
+.flex-box1 a:hover{
+  flex:3;
+}
+.flex-box1 .gameover{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  right:0;
+  left:0;
+  transition: background-color .4s;
+
+
+}
+.flex-wrapper a:hover .overlay {
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.flex-wrapper .overlay-inner * {
+  visibility: hidden;
+  opacity: 0;
+  transform-style: preserve-3d;
+}
+
+.flex-wrapper .overlay h2 {
+  transform: translate3d(0, -60px, 0);
+}
+
+.flex-wrapper .overlay p {
+  transform: translate3d(0, 60px, 0);
+}
+
+.flex-wrapper a:hover .overlay-inner * {
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  transition: all .3s .3s;
+}
+
+#intro{
+  padding: 100px 0;
+}
+#intro .heading {
+  font-size:5rem;
+}
+h3{
+  color: white;
+  margin: 0 0 20px 0;
+  line-height: normal;
+  font-weight:1;
+  text-transform:capitalize ;
+}
+p{
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: medium;
+}
+.space{
+  margin:0;
+  padding: 0;
+  list-style: none;
+  
+}
+.inline{
+  display: inline-block;
+}
+*{
+  transition: all .3s ease-in-out;
+}
+
+.btn{
+  color:white;
+  background-color: #156880;
+  border-color:#0AC6FC;
+  border-radius: 14px;
+  display: inline-block;
+  padding: 8px 25px 10px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 400;
+  border:1px solid white;
+  
+}
+.btn .verse{
+
+  color:inherit;
+  background-color: transparent;
+  border-color: inherit;
+}
+.botones{
+  display:flex;
+}
+.worn{
+  display: flex;
+  gap:2rem;
+}
+/* listas de cajas de informacion */
+ul{
+  list-style-type: disc;
+}
+section{
+  display:block;
+  margin: 0;
+  padding: 0;
+}
+.holdertext{
+  display: block;
+  margin:0 auto 80px;
+  text-align: center;
+  max-width: 55%;
+}
+#fn-hol .hotext{
+  font-size: 20px;
+  
+}
+
+.gruop{
+  clear: both;
+}
+
+.gruplist{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#servicios-holder .li{
+  margin-bottom: 30px;
+  padding: 25px 0 0 0;
+}
+.grid6 > li:nth-child(3n+1){
+  margin-left: 0;
+  clear: left;
+}
+.boxlist{
+  width:30.52631%;
+  margin: 0 0 0 4.21052%;
+  float:left;
+}
+#servicios-holder li article {
+  display:block;
+  padding: 40px 25px 30px;
+  border:1px solid;
+  position: relative;
+}
+#servicios-holder li article {
+  border-color:white;
+}
+#servicios-holder li{
+  margin-bottom: 30px;
+  padding: 25px 0 0 0;
+}
+
+.arti{
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.arti:hover{
+ 
+  -webkit-backdrop-filter:blur(15px);
+  backdrop-filter:blur(15px);
+  background-color: rgba(17, 15, 15, 0.09);
+  padding-right: 2rem;
+}
+.holdertext{
+  
+
+  color:white;
+  font-size: 20px;
+
+}
+
+.fa-solid{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.338);
+  padding: 15px;
+  border:1px solid;
+  float:left;
+}
+.fa-solid:hover{
+  background-color: #0AC6FC;
+}
+.wron1{
+  color: white;
+  background-color: #16161634;
+}
+.footer-box{
+  display: block;
+  width:100%;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#fn-hol{
+  padding: 80px 0 ;
+}
+.red-social{
+  width: 22%;
+  margin-left:0;
+  clear: left;
+  
+  margin:0 0 0 4.2%;
+  
+}
+.iconos-redes {
+  display: flex;
+  margin:0;
+  padding: 0;
+  list-style: none;
+}
+.fa-brands{
+  margin-left: 1rem;
+  
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+#fn-hol{
+  display:flex;
+  gap:20rem;
+}
+form{
+  margin: 0;
+  padding: 0;
+  border:none;
+}
+#fn-hol input{
+  color:white;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 12px;
+  display: block;
+  padding: 12px 60px;
+  width:100%;
+  border: 1px solid;
+}
+.btnboton{
+  margin-bottom: 15px;
+}
+.btn:hover{
+  background-color: transparent;
+
+}
+.footer-final{
+  background-color: #36383885;
+  width:100%;
+  height:70px;
+  border: 1px solid;
+  border-width: 2px 0 0 0;
+}
+.creador{
+  display: flex;
+  justify-content: center;
+  margin-top: 27px;
+  
+
+}
+.tutor{
+  font-size: 1rem;
+  font-family: 'Courier New',
+  Courier,
+  monospace;
+  text-align: center;
+
+}
